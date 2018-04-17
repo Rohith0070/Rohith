@@ -1,0 +1,8 @@
+#include <stdio.h>
+ 
+int main() 
+{
+      int at[50], bt[50], temp[50];                                    //at=Arrival Time,bt=Burst Time,temp=Temporary
+      int x, w, count = 0, time, value;                                
+      double wt = 0, tat = 0, end;                                     //wt=Waiting Time,tat=Turn around time
+      float awt, atat;                                                 //awt=Average Waiting Time,atat=Average Turn around time
